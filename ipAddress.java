@@ -5,8 +5,9 @@ import java.net.*;
  */
 public class ipAddress {
 
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) throws Exception 
+    {
         InetAddress ip = InetAddress.getLocalHost();
-        System.out.println("IP os system is\n" + ip.getHostAddress());
+        System.out.println("IP address system is\n" + ip.getHostAddress());
     }
 }
